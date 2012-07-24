@@ -16,6 +16,8 @@
 		2266C1A115BF285D00ADC9A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2266C1A015BF285D00ADC9A7 /* ViewController.m */; };
 		2266C1A415BF285D00ADC9A7 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2266C1A215BF285D00ADC9A7 /* ViewController_iPhone.xib */; };
 		2266C1A715BF285D00ADC9A7 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2266C1A515BF285D00ADC9A7 /* ViewController_iPad.xib */; };
+		2266C1AF15BF289400ADC9A7 /* TransformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2266C1AE15BF289400ADC9A7 /* TransformView.m */; };
+		2266C1B115BF2A6700ADC9A7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2266C1B015BF2A6700ADC9A7 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +25,19 @@
 		2266C18D15BF285C00ADC9A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2266C18F15BF285D00ADC9A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2266C19115BF285D00ADC9A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2266C19515BF285D00ADC9A7 /* 3dTransform-Info.plist */ = {isa = PBXFileReference; path = "3dTransform-Info.plist"; sourceTree = "<group>"; };
+		2266C19515BF285D00ADC9A7 /* 3dTransform-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "3dTransform-Info.plist"; sourceTree = "<group>"; };
 		2266C19715BF285D00ADC9A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2266C19915BF285D00ADC9A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2266C19B15BF285D00ADC9A7 /* 3dTransform-Prefix.pch */ = {isa = PBXFileReference; path = "3dTransform-Prefix.pch"; sourceTree = "<group>"; };
-		2266C19C15BF285D00ADC9A7 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		2266C19B15BF285D00ADC9A7 /* 3dTransform-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3dTransform-Prefix.pch"; sourceTree = "<group>"; };
+		2266C19C15BF285D00ADC9A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2266C19D15BF285D00ADC9A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2266C19F15BF285D00ADC9A7 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		2266C19F15BF285D00ADC9A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2266C1A015BF285D00ADC9A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2266C1A315BF285D00ADC9A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		2266C1A615BF285D00ADC9A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		2266C1AD15BF289400ADC9A7 /* TransformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformView.h; sourceTree = "<group>"; };
+		2266C1AE15BF289400ADC9A7 /* TransformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformView.m; sourceTree = "<group>"; };
+		2266C1B015BF2A6700ADC9A7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2266C1B115BF2A6700ADC9A7 /* QuartzCore.framework in Frameworks */,
 				2266C18E15BF285C00ADC9A7 /* UIKit.framework in Frameworks */,
 				2266C19015BF285D00ADC9A7 /* Foundation.framework in Frameworks */,
 				2266C19215BF285D00ADC9A7 /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +75,7 @@
 		2266C18C15BF285C00ADC9A7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2266C1B015BF2A6700ADC9A7 /* QuartzCore.framework */,
 				2266C18D15BF285C00ADC9A7 /* UIKit.framework */,
 				2266C18F15BF285D00ADC9A7 /* Foundation.framework */,
 				2266C19115BF285D00ADC9A7 /* CoreGraphics.framework */,
@@ -86,6 +93,8 @@
 				2266C1A215BF285D00ADC9A7 /* ViewController_iPhone.xib */,
 				2266C1A515BF285D00ADC9A7 /* ViewController_iPad.xib */,
 				2266C19415BF285D00ADC9A7 /* Supporting Files */,
+				2266C1AD15BF289400ADC9A7 /* TransformView.h */,
+				2266C1AE15BF289400ADC9A7 /* TransformView.m */,
 			);
 			path = 3dTransform;
 			sourceTree = "<group>";
@@ -167,6 +176,7 @@
 				2266C19A15BF285D00ADC9A7 /* main.m in Sources */,
 				2266C19E15BF285D00ADC9A7 /* AppDelegate.m in Sources */,
 				2266C1A115BF285D00ADC9A7 /* ViewController.m in Sources */,
+				2266C1AF15BF289400ADC9A7 /* TransformView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

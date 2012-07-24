@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TransformView.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    UIView *transform = [[[TransformView alloc] initWithFrame:self.view.bounds] autorelease];
+    [self.view addSubview:transform];
 }
 
 - (void)viewDidUnload
